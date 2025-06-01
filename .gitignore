@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/New_Opeartional_Process.txt
+/New_score.txt
+/Opeartional_Process.txt
+/score.txt
