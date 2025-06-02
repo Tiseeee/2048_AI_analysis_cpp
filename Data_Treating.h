@@ -21,7 +21,7 @@ void data_treating() {
     for (int s_line; line < linenumber; line++) {
         score.getline(score_temp, 10);
         opear.getline(opear_temp, 1000);
-        if (score_temp[6] > '3') {
+        if ((score_temp[6] > '4' && score_temp[8])||score_temp[9]) {
             int i = 0;
             while (opear_temp[i]) {
                 N_opear << opear_temp[i];
